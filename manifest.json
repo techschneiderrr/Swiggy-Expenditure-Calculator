@@ -1,0 +1,11 @@
+{
+    "name": "Swiggy Money",
+    "description": "Tells you how much money you spent on swiggy",
+    "version": "1.0",
+    "content_scripts":[
+        {
+            "matches":["https://www.swiggy.com/my-account"],
+            "js":["swiggy.js"]
+        }
+    ]
+}
